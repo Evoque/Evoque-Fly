@@ -167,7 +167,7 @@ Level.prototype.step = function(dt) {
 
             this.board.add(new Enemy(enemy, override));
             //Increment the start time by the Gap
-            curShip[0] += curShip[2]; // ==> 这里为什么要增加start time？
+            curShip[0] += curShip[2]; // 
         }
         idx++;
     }
