@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=0, minimum-scale=1.0,
+	maximum-scale=1.0" />
+	<title>Evo Fly</title>
+	<link rel="stylesheet" type="text/css" href="base.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Bangers">
+	<link rel="stylesheet" type="text/css" href="./Font/qunit-1.23.0.css">
+</head>
+
+<body>
+	<div id="container"> 
+		<canvas id="game" width="320" height="480"></canvas>
+	</div>
+
+
+	<div id="qunit"></div>
+	<div id="qunit-fixture"></div>
+	<script type="text/javascript" src="./Script/qunit-1.23.0.js"></script>
+	<script type="text/javascript" src="BaseData.js"></script>
+	<script type="text/javascript" src="engine.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+	<script type="text/javascript">
+		window.onload = function() {
+
+
+			var myArray = ["zero", "one", "two"];
+			myArray.myMethod = function(sProperty) {
+				alert(arguments.length > 0 ? this[sProperty] : this);
+			};
+
+			console.log("Evoque");
+
+		}
+	</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
